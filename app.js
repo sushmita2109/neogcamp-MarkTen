@@ -15,7 +15,7 @@ function checkValidity(){
             
             const calculateChange = givenAmount.value - billAmount.value;
             result("you have change left with "+calculateChange +" Rs...")
-            displayAmount(calculateChange)
+            displayAmount(calculateChange);
         }else if(givenAmount.value === billAmount.value){
             result("You have no exchange left")
             
