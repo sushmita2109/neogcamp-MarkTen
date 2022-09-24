@@ -5,7 +5,7 @@ const displayResult = document.querySelector("#result")
 const numberOfNotes = document.querySelectorAll(".no-of-notes");
 const availableNotes = [2000 , 500 , 100 , 50 , 20 , 10 , 5 , 1 ]
 //console.log(givenAmount.value)
-checkbtn.addEventListener("click",checkValidity);
+
 
 function checkValidity(){
     hideMessage();
@@ -44,3 +44,4 @@ function displayAmount(calculateChange){
         numberOfNotes[i].innerText = noOfNotes;
     }
 }
+checkbtn.addEventListener("click",checkValidity);
